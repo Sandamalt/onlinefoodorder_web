@@ -21,6 +21,12 @@
     
 }
 
+.item:last-child{
+    justify-content: flex-end;
+    
+}
+
+
 .callButton{
     background-color: white;
     border-radius: 50%;
@@ -44,4 +50,40 @@
 .text:last-child{
     font-size: 20px;
     font-weight: bold;
+}
+
+.list{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+   color: white;
+
+}
+
+.listItem{
+    margin: 20px;
+    font-weight: 500;
+}
+
+.cart{
+    position: relative;
+}
+
+.counter{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d1411e;
+    font-weight: bold;
+
+
 }
