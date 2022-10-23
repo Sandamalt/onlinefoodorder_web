@@ -1,19 +1,21 @@
-import styles from  "../styles/Footer.module.css"
-import Image from "next/image"
+import styles from  "../styles/Footer.module.css";
+import Image from "next/image";
 
 const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.item}>
-                <Image src="/img/bg.png" layout="fill" alt="" />
+                <Image src="/img/bg.png" objectFit="cover"  layout="fill" alt="" />
             </div>
             <div className={styles.item}>
+            <div className={styles.card}> 
                 <h2 className={styles.motto}>
                     BEST FOODS IN SEETHAWAKA <br />
-                </h2>
-            </div>
+                </h2> 
+                </div>
+            
             <div className={styles.card}>
-                <h1 className={styles.titile}> FIND OUR RESTURANTS</h1>
+                <h1 className={styles.title}> FIND OUR RESTURANTS</h1>
                 <p className={styles.text}>
                     Lavenro Garden Hotel  #304. 
                     <br /> Highlevel Road , 
@@ -32,7 +34,10 @@ const Footer = () => {
                     <br/> Avissawella.
                 </p>
 
+                               
+                
             </div>
+
             <div className={styles.card}>
                 <h1 className={styles.title}> WORKING HOURS </h1>
                 <p className={styles.text}>
@@ -44,9 +49,10 @@ const Footer = () => {
                     <br /> 12:00 - 24:00
                 </p>
             </div>
+            </div>
             
         </div>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
