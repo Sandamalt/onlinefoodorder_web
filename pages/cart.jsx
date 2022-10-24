@@ -7,7 +7,7 @@ const Cart = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left}> 
-                <table className={styles.table}>
+                <table className={styles.table}> <tbody>
                     <tr className={styles.tr}>
                         <th>Product</th>
                         <th>Name</th>
@@ -32,7 +32,7 @@ const Cart = () => {
                             <span className={styles.price}> $19.90</span>
                         </td>
                         <td>
-                            <span className={styles.quantyty}> 2</span>
+                            <span className={styles.quantity}> 2</span>
                         </td>
                         <td>
                             <span className={styles.total}>$39.80</span>
@@ -62,7 +62,7 @@ const Cart = () => {
                     </tr>
 
                     
-                    
+                    </tbody>
                 </table>
             </div>
             <div className={styles.right}> 
