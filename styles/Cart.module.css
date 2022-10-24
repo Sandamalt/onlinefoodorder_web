@@ -1,0 +1,66 @@
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.left{
+    flex: 2;
+
+}
+
+.right{
+    flex: 1;
+
+}
+
+.imgContainer{
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    
+}
+
+.name{
+    font-weight: 500;
+    color: #d1411e;
+    font-size: 18px;
+}
+
+.total{
+    font-weight: 500;
+    font-size: 20px;
+    color: #d1411e ;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 300px;
+    background-color: #333;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    opacity: 70%;
+    
+}
+
+.totalTextTitle{
+    margin-right: 10px;
+}
+
+.button{
+    height: 30px;
+    color: #d1411e;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
