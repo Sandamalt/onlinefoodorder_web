@@ -82,7 +82,7 @@ const Order = () => {
                 <Image src="/img/checked.png" width={20} height={20} alt="" />
                 </div>
                 </div>
-            </div>
+            </div> 
 
          </div>
          <div className={styles.right}>
