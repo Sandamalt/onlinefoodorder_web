@@ -20,3 +20,4 @@ function PizzaCard({ pizza }) {
 }
 
 export default PizzaCard
+ 
