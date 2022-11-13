@@ -25,7 +25,7 @@ const quantity = useSelector((state) => state.cart.quantity);
                     <li className={styles.listItem}> Homepage </li>
                     <li className={styles.listItem}> Product </li>
                     <li className={styles.listItem}> Menu </li>
-                    <img src="/img/logo.png" alt="" width="160px" height="69px" />
+                    <img src="/img/logo.png" alt="" width="130px" height="130px" />
                     <li className={styles.listItem}> Events </li>
                     <li className={styles.listItem}> Blog </li>
                     <li className={styles.listItem}> Contact </li>

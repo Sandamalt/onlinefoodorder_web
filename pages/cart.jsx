@@ -1,13 +1,23 @@
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
+import { removeFromCart } from "../redux/cartSlice";
+import { useState } from "react";
 
 
 
 const Cart = () => {
 
+
+    
+
     const  dispatch = useDispatch()
     const cart = useSelector((state) => state.cart);
+
+    const handleRemoveFromCart = (product) =>{
+        dispatch(removeFromCart(product));
+    };
+
 
     return (
         <div className={styles.container}>
@@ -44,6 +54,9 @@ const Cart = () => {
                         <td>
                             <span className={styles.total}>${product.price * product.quantity}</span>
                         </td>
+                        <td>
+                            <button onClick={() => handleRemoveFromCart (product) }> Remove </button>
+                        </td>
                     </tr>
                     )) }
 
@@ -66,12 +79,14 @@ const Cart = () => {
                     <b className={styles.totalTextTitle}> Total :</b> $ {cart.total}
                 </div>
 
-                <button className={styles.button}> CHECKOUT NOW !</button>
+                
+
+                <button className={styles.button}> CHECKOUT NOW !</button> 
 
                 </div>
             </div>
                             
-
+          
         </div>
     )
 }

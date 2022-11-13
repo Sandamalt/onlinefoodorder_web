@@ -4,7 +4,7 @@
 }
 
 .left{
-    flex: 2;
+    flex: 3;
 
 }
 
@@ -23,7 +23,7 @@
 .table{
     width: 100%;
     border-spacing: 20px;
-    text-align: center;
+   text-align: center;
     
 }
 
