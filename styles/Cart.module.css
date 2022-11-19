@@ -124,3 +124,22 @@
         width: 100%;
     }
 }
+
+.payamentMethods{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.payButton{
+    padding: 15px 15px ;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color:white ;
+    color: teal;
+    font-weight: bold ;
+    flex-direction: column;
+    display: flex;
+}
