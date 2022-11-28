@@ -1,68 +1,53 @@
-.container{
-    
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: 999;
-        top:0;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(196, 196, 196, 0.596);
-   
-      
+.container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(197, 197, 197, 0.568);
 }
 
-.wrapper{
-    widows: 500px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px turquoise;
-
+.wrapper {
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.title{
-    font-weight: 300;
-    font-weight: bold;
-    
-
+.title {
+  font-weight: 300;
 }
 
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.label{
-    margin-bottom: 15px;
-    margin-top: 15px;
+.label {
+  margin-bottom: 10px;
 }
 
-.input{
-     height: 40px;
-
-    }
-
-.textarea{
-    height: 100px;
+.input {
+  height: 40px;
 }
 
-.button{
-    border:none;
-    background-color: teal;
-    color: white;
-    margin-top: 15px;
-    padding: 10px 20px;
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
+.button {
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
 }

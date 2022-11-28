@@ -16,7 +16,7 @@ const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
-  const amount = cart.total;  
+  const amount = cart.total;
   const currency = "USD";
   const style = { layout: "vertical" };
   const dispatch = useDispatch();
@@ -170,7 +170,7 @@ const Cart = () => {
                     "ARXXOKVr8Vknb69PEpKgxsrtTU2Hyivrf6OjsMhmPsv9YOrXOOuZcJA4v3Q-0GTKaatyd9oYOAAKC20f",
                   components: "buttons",
                   currency: "USD",
-                  "disable-funding": "credit,card,p24",  // isable fundings and credit card payment
+                  "disable-funding": "credit,card,p24",
                 }}
               >
                 <ButtonWrapper currency={currency} showSpinner={false} />

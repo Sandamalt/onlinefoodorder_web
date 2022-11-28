@@ -1,39 +1,46 @@
-import axios from 'axios'
-import Head from 'next/head'
-import { useEffect, useState } from 'react'
-import Featured from '../components/Featured'
-import PizzaList from '../components/PizzaList'
-
-import styles from '../styles/Home.module.css'
-
-export const getServerSideProps = async (ctx) => {
-  const myCookie = ctx.req?.cookies || "";
-  let admin = false;
-  if (myCookie.token === process.env.TOKEN) {
-    admin = true
-  }
-  const res = await axios.get("http://localhost:3000/api/products");
-  return {
-    props: {
-      pizzaList: res.data.response,
-      admin,
-    }, 
-  };
-}
+import axios from "axios";
+import Head from "next/head";
+import Image from "next/image";
+import { useState } from "react";
+import Add from "../components/Add";
+import AddButton from "../components/AddButton";
+import Featured from "../components/Featured";
+import PizzaList from "../components/PizzaList";
+import styles from "../styles/Home.module.css";
 
 export default function Home({ pizzaList, admin }) {
-
-  const [close, setClose] = useState(true)
-
+  const [close, setClose] = useState(true);
   return (
     <div className={styles.container}>
       <Head>
-        <title style={{fontWeight: 700}}>Dineout - The best Pizza restaurant </title>
-        <meta name="description" content="Find best pizza restaurants in India offering discounts on food & drinks, check out menu, reviews and also book a table through dineout for free." />
+        <title>Pizza Restaurant in Newyork</title>
+        <meta name="description" content="Best pizza shop in town" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
-      
+      {admin && <AddButton setClose={setClose} />}
       <PizzaList pizzaList={pizzaList} />
+      {!close && <Add setClose={setClose} />}
     </div>
-  )
+  );
 }
+
+{
+  /*  ----- Check cookire and redirect login when try to go Admin page ----*/
+}
+export const getServerSideProps = async (ctx) => {
+  const myCookie = ctx.req?.cookies || "";
+  let admin = false;
+
+  if (myCookie.token === process.env.TOKEN) {
+    admin = true;
+  }
+
+  const res = await axios.get("http://localhost:3000/api/products");
+  return {
+    props: {
+      pizzaList: res.data,
+      admin,
+    },
+  };
+};
