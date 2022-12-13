@@ -1,68 +1,92 @@
-.container{
-    
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: 999;
-        top:0;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(196, 196, 196, 0.596);
-   
-      
+.container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+
+  background: #83a4d4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b6fbff,
+    #83a4d4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b6fbff7c,
+    #83a3d465
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.wrapper{
-    widows: 500px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px turquoise;
+.wrapper {
+  width: 500px;
 
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
-.title{
-    font-weight: 300;
-    font-weight: bold;
-    
-
+.title {
+  font-weight: bold;
+  color: #b40614;
 }
 
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.label{
-    margin-bottom: 15px;
-    margin-top: 15px;
+.label {
+  margin-bottom: 10px;
 }
 
-.input{
-     height: 40px;
-
-    }
-
-.textarea{
-    height: 100px;
+.input {
+  height: 40px;
+  border-radius: 7px;
+  border: #b40614 1px outset;
 }
 
-.button{
-    border:none;
-    background-color: teal;
-    color: white;
-    margin-top: 15px;
-    padding: 10px 20px;
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
+.input:hover {
+  border: #b40614 2.5px solid;
+}
+
+.textarea {
+  height: 90px;
+  border-radius: 7px;
+  border: #b40614 1px outset;
+}
+
+.textarea:hover {
+  border: #b40614 2.5px solid;
+}
+
+.button {
+  margin-top: 25px;
+  border: none;
+  background-color: #b40614;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #6b070f;
 }

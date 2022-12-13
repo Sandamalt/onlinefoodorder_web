@@ -1,48 +1,64 @@
-import styles from "../styles/Navbar.module.css"
-import Image from "next/image"
+import styles from "../styles/Navbar.module.css";
+import Image from "next/image";
 import { useSelector } from "react-redux";
 import Link from "next/link";
 
+{
+  /* ------ Start NAvigation Bar ------ */
+}
 const Navbar = () => {
+  const quantity = useSelector((state) => state.cart.quantity);
 
+  return (
+    /*  ----- Left side of Nav bar */
 
-const quantity = useSelector((state) => state.cart.quantity);
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.callButton}>
+          <img src="/img/telephone.png" alt="" width="32" height="32" />
+        </div>
+        <div className={styles.texts}>
+          <div className={styles.text}> ORDER NOW ! </div>
+          <div className={styles.text}>036 20 30 500 </div>
+        </div>
+      </div>
 
-    return (
-        <div className={styles.container}>
-            <div className={styles.item}>
-            <div className={styles.callButton}> 
-            <img src="/img/telephone.png" alt="" width="32" height="32" /> 
-                </div>        
-                  <div className={styles.texts}> 
-                  <div className={styles.text}> ORDER NOW ! </div>
-                    <div className={styles.text}>036 20 30 500 </div>
-                  </div>    
-                     </div>
+      {/*  ------- Middle of Nav bar ---- */}
 
-            <div className={styles.item}> 
-                <ul className={styles.list}> 
-                    <li className={styles.listItem}> Homepage </li>
-                    <li className={styles.listItem}> Product </li>
-                    <li className={styles.listItem}> Menu </li>
-                    <img src="/img/logo.png" alt="" width="130px" height="130px" />
-                    <li className={styles.listItem}> Events </li>
-                    <li className={styles.listItem}> Blog </li>
-                    <li className={styles.listItem}> Contact </li>
-                </ul>
-             </div>
+      <div className={styles.item}>
+        <ul className={styles.list}>
+          <Link href="/" passHref>
+            <li className={styles.listItem}> Homepage </li>
+          </Link>
+          <li className={styles.listItem}> Product </li>
+          <li className={styles.listItem}> Menu </li>
 
-             <Link href="/cart" passHref>
-            <div className={styles.item}> 
-            <div className={styles.cart}> 
-            <div> <img src="/img/cart.png" alt="" width="30px" height="30px" /> </div>
-            <div className={styles.counter}> {quantity} </div>
+          {/* ------Add Logo------ */}
+
+          <img src="/img/logo.png" alt="" width="130px" height="130px" />
+          <li className={styles.listItem}> Events </li>
+          <li className={styles.listItem}> Blog </li>
+          <Link href={"https://herewecode.io/"} target="_blank">
+            <li className={styles.listItem}> Contact </li>
+          </Link>
+        </ul>
+      </div>
+
+      {/* ------- Cart icon and right side ------*/}
+
+      <Link href="/cart" passHref>
+        <div className={styles.item}>
+          <div className={styles.cart}>
+            <div>
+              {" "}
+              <img src="/img/cart.png" alt="" width="30px" height="30px" />{" "}
             </div>
-           
+            <div className={styles.counter}> {quantity} </div>
+          </div>
         </div>
-        </Link>
-        </div>
-    );
-} 
+      </Link>
+    </div>
+  );
+};
 
 export default Navbar;
