@@ -10,6 +10,7 @@ const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
 
   return (
+<<<<<<< HEAD
     /*  ----- Left side of Nav bar */
 
     <div className={styles.container}>
@@ -46,6 +47,33 @@ const Navbar = () => {
 
       {/* ------- Cart icon and right side ------*/}
 
+=======
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.callButton}>
+          <img src="/img/telephone.png" alt="" width="32" height="32" />
+        </div>
+        <div className={styles.texts}>
+          <div className={styles.text}> ORDER NOW ! </div>
+          <div className={styles.text}>036 20 30 500 </div>
+        </div>
+      </div>
+
+      <div className={styles.item}>
+        <ul className={styles.list}>
+          <Link href="/" passHref>
+            <li className={styles.listItem}> Homepage </li>
+          </Link>
+          <li className={styles.listItem}> Product </li>
+          <li className={styles.listItem}> Menu </li>
+          <img src="/img/logo.png" alt="" width="130px" height="130px" />
+          <li className={styles.listItem}> Events </li>
+          <li className={styles.listItem}> Blog </li>
+          <li className={styles.listItem}> Contact </li>
+        </ul>
+      </div>
+
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
       <Link href="/cart" passHref>
         <div className={styles.item}>
           <div className={styles.cart}>

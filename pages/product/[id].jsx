@@ -56,6 +56,7 @@ const Product = ({ pizza }) => {
               <Image src="/img/size.png" layout="fill" alt="" />
               <span className={styles.number}>Small</span>
             </div>
+<<<<<<< HEAD
             <div className={styles.size} onClick={() => handleSize(1)}>
               <Image src="/img/size.png" layout="fill" alt="" />
               <span className={styles.number}>Medium</span>
@@ -91,6 +92,20 @@ const Product = ({ pizza }) => {
               Add to Cart
             </button>
           </div>
+=======
+          ))}
+        </div>
+        <div className={styles.add}>
+          <input
+            onChange={(e) => setQuantity(e.target.value)}
+            type="number"
+            defaultValue={1}
+            className={styles.quantity}
+          />
+          <button className={styles.button} onClick={handleClick}>
+            Add to Cart
+          </button>
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
         </div>
       </div>
     </div>

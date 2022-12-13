@@ -1,5 +1,8 @@
 import axios from "axios";
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
 import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "../../styles/Login.module.css";
@@ -24,6 +27,7 @@ const Login = () => {
 
   return (
     <div className={styles.container}>
+<<<<<<< HEAD
       <div className={styles.img}>
         <Image
           src="/../public/img/admin4.jpg"
@@ -34,6 +38,10 @@ const Login = () => {
       </div>
       <div className={styles.wrapper}>
         <h1>Admin Login</h1>
+=======
+      <div className={styles.wrapper}>
+        <h1>Admin Dashboard</h1>
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
         <input
           placeholder="username"
           className={styles.input}

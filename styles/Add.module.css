@@ -1,22 +1,32 @@
 .mainAddButton {
   padding: 10px;
   margin: 20px;
+<<<<<<< HEAD
   background-color: #ffffff;
   width: 150px;
   border-radius: 10px;
   border: #b40614 2px solid;
   color: #b40614;
+=======
+  background-color: #d1411e;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
   font-weight: 500;
   text-align: center;
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .mainAddButton:hover {
   background-color: #b40614;
   color: #ffffff;
   transition: 0.8s;
 }
 
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
 .container {
   width: 100vw;
   height: 100vh;

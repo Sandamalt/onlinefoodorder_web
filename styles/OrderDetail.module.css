@@ -8,6 +8,7 @@
   z-index: 999;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
 
   background: #83a4d4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -20,16 +21,25 @@
     #b6fbff7c,
     #83a3d465
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+=======
+  background-color: rgba(197, 197, 197, 0.568);
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
 }
 
 .wrapper {
   width: 500px;
+<<<<<<< HEAD
 
+=======
+  background-color: white;
+  border-radius: 20px;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
   padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
 
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.65);
@@ -42,6 +52,12 @@
 .title {
   font-weight: bold;
   color: #b40614;
+=======
+}
+
+.title {
+  font-weight: 300;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
 }
 
 .item {
@@ -57,6 +73,7 @@
 
 .input {
   height: 40px;
+<<<<<<< HEAD
   border-radius: 7px;
   border: #b40614 1px outset;
 }
@@ -79,6 +96,13 @@
   margin-top: 25px;
   border: none;
   background-color: #b40614;
+=======
+}
+
+.button {
+  border: none;
+  background-color: teal;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
   color: white;
   padding: 10px 20px;
   font-weight: 500;
@@ -86,7 +110,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 
 .button:hover {
   background-color: #6b070f;
 }
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
