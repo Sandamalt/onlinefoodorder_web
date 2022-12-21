@@ -1,145 +1,281 @@
 .container {
-    padding: 50px;
-    display: flex;
+  padding: 50px;
+  display: flex;
 }
 
-.left{
-    flex: 3;
-
+.left {
+  flex: 2;
 }
 
-.right{
-    flex: 1;
+.tr {
+  margin: 25px 25px 25px 25px;
 
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
 }
 
-.imgContainer{
-    height: 100px;
-    width: 100px;
-    position: relative;
-
+.tr:hover {
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(245, 16, 16, 0.459);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
+  cursor: pointer;
+  scale: 105%;
+  transition: 0.8s;
 }
 
-.table{
-    width: 100%;
-    border-spacing: 20px;
-   text-align: center;
-    
+.right {
+  flex: 1;
 }
 
-.name{
-    font-weight: 500;
-    color: #d1411e;
-    font-size: 18px;
+.imgContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
 }
 
-.total{
-    font-weight: 500;
-    font-size: 20px;
-    color: #d1411e ;
+.table {
+  width: 100%;
+  border-spacing: 20px;
 }
 
-.wrapper{
-    width: 100%;
-    max-width: 300px;
-    background-color: #333;
-    padding: 50px;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: white;
-    opacity: 70%;
-    
+.name {
+  font-weight: 500;
+  color: #b40614;
+  font-size: 18px;
 }
 
-.totalTextTitle{
-    margin-right: 10px;
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b40614;
+  text-align: center;
 }
 
-.button{
-    height: 30px;
-    color: #d1411e;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px;
-    
+.total {
+  font-weight: 500;
+  font-size: 18px;
+  color: #dd1818;
+}
+
+.wrapper {
+  width: 85%;
+  max-height: 350px;
+  margin-top: 50px;
+  margin-left: 30px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
+  border: #b40614 1px solid;
+
+  padding: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(12, 1, 1);
+}
+
+.wrapper:hover {
+  transition: 1s;
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(245, 16, 16, 0.425);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
+  cursor: pointer;
+}
+
+.totalTextTitle {
+  margin-right: 10px;
+}
+
+.button {
+  height: 40px;
+  color: #b40614;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+
+  /* From https://css.glass */
+  background: rgba(180, 6, 20, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+}
+
+.button:hover {
+  /* background-color: #b40614;*/
+
+  background: #333333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  transition: 1s;
+}
+
+/*.clearButton {
+  margin-top: 20px;
+
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+  color: #b40614;
+
+  border-radius: 7.5px;
+  border: none;
+
+  background-color: white;
+}*/
+
+.clearB {
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 7.5px;
+
+  font-size: 19px;
+  font-weight: 500;
+  font-style: italic;
+
+  color: #b40614;
+  border-radius: 10px;
+  border: #b40614 1px solid;
+
+  background-color: white;
+}
+
+.clearB:hover {
+  background-color: #b40614;
+
+  border: white 1px solid;
+  color: white;
+  transition: 1s;
+}
+
+.paymentMethods {
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.payButton {
+  height: 40px;
+  color: #b40614;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+
+  /* From https://css.glass */
+  background: rgba(180, 6, 20, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+}
+
+.payButton:hover {
+  color: white;
+  transition: 1s;
+
+  background: #200122; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 480px) {
-    .container{
-        flex-direction: column;
-        padding: 20px;
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    }
-
-    .table{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .trTitle{
-        display: none;
-    }
-
-    .tr{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .imgContainer{
-        width: 35vw;
-        height: 35vw;
-    }
-
-    .name , .total{
-        font-size: 24px;
-    }
-
-    .extras , .price , .quantity{
-        font-size: 22px;
-    }
-
-    .price::before{
-        content:  " Price " ;
-        font-weight: 500;
-    }
-
-    .quantity::before{
-        content:  " Quantity " ;
-        font-weight: 500;
-    }
-
-    .total::before{
-        content:  " Total " ;
-        font-weight: 500;
-    }
-
-    .wrapper{
-        width: 100%;
-    }
-}
-
-.payamentMethods{
-    margin-top: 10px;
+  .table {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-}
+  .trTitle {
+    display: none;
+  }
 
-.payButton{
-    padding: 15px 15px ;
-    cursor: pointer;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    background-color:white ;
-    color: teal;
-    font-weight: bold ;
-    flex-direction: column;
+  .tr {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .imgContainer {
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .name,
+  .total {
+    font-size: 24px;
+  }
+
+  .extras,
+  .price,
+  .quantity {
+    font-size: 22px;
+  }
+
+  .price::before {
+    content: "Price: ";
+    font-weight: 500;
+  }
+  .quantity::before {
+    content: "Quantity: ";
+    font-weight: 500;
+  }
+  .total::before {
+    content: "Total: ";
+    font-weight: 500;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
 }

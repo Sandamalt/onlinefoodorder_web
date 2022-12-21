@@ -1,0 +1,79 @@
+.container {
+  padding: 50px;
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.next {
+  background-color: rgb(46, 221, 40);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+}
+
+.next:hover {
+  background-color: darkgreen;
+}
+
+.tableRight {
+  margin-left: 80px;
+}
+
+.left {
+  width: 50%;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
+  border: #ffffff 1px solid;
+}
+
+.right {
+  width: 50%;
+  font-size: 18px;
+  justify-content: space-between;
+
+  margin-left: 40px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(19.7px);
+  -webkit-backdrop-filter: blur(19.7px);
+  border: #ffffff 1px solid;
+}
+
+.title {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttonDel {
+  color: white;
+  padding: 7px;
+  background-color: rgb(230, 52, 52);
+  font-size: 14px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonDel:hover {
+  background-color: darkred;
+}
