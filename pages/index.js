@@ -14,6 +14,7 @@ export default function Home({ pizzaList, admin }) {
     <div className={styles.container}>
       <Head>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <title>Pizza Restaurant in Seethawka</title>
         <meta name="description" content="Best pizza shop in town" />
         <link rel="icon" href="/pizza.png" />
@@ -22,6 +23,11 @@ export default function Home({ pizzaList, admin }) {
         <meta name="description" content="Best pizza shop in town" />
         <link rel="icon" href="/favicon.ico" />
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+        <title>Pizza Restaurant in Seethawka</title>
+        <meta name="description" content="Best pizza shop in town" />
+        <link rel="icon" href="/pizza.png" />
+>>>>>>> f7c3cf3 (final with fix bugs)
       </Head>
       <Featured />
       {admin && <AddButton setClose={setClose} />}

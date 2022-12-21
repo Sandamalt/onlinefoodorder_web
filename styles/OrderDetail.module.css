@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 
   background: #83a4d4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -21,25 +24,35 @@
     #b6fbff7c,
     #83a3d465
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+<<<<<<< HEAD
 =======
   background-color: rgba(197, 197, 197, 0.568);
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 }
 
 .wrapper {
   width: 500px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
   background-color: white;
   border-radius: 20px;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+
+>>>>>>> f7c3cf3 (final with fix bugs)
   padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.65);
@@ -52,6 +65,7 @@
 .title {
   font-weight: bold;
   color: #b40614;
+<<<<<<< HEAD
 =======
 }
 
@@ -78,6 +92,27 @@
   border: #b40614 1px outset;
 }
 
+=======
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 7px;
+  border: #b40614 1px outset;
+}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
 .input:hover {
   border: #b40614 2.5px solid;
 }
@@ -96,6 +131,7 @@
   margin-top: 25px;
   border: none;
   background-color: #b40614;
+<<<<<<< HEAD
 =======
 }
 
@@ -103,6 +139,8 @@
   border: none;
   background-color: teal;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   color: white;
   padding: 10px 20px;
   font-weight: 500;
@@ -111,9 +149,15 @@
   cursor: pointer;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 
 .button:hover {
   background-color: #6b070f;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)

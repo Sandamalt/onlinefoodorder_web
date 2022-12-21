@@ -3,6 +3,13 @@ import styles from "../styles/Add.module.css";
 import axios from "axios";
 import { useRouter } from "next/router";
 
+<<<<<<< HEAD
+=======
+{
+  /* ------------  Addd item form --------*/
+}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
 const Add = ({ setClose }) => {
   const [file, setFile] = useState(null);
   const [title, setTitle] = useState(null);
@@ -25,6 +32,13 @@ const Add = ({ setClose }) => {
     setExtraOptions((prev) => [...prev, extra]);
   };
 
+<<<<<<< HEAD
+=======
+  {
+    /* ---------- Image upload function to clodinary -------*/
+  }
+
+>>>>>>> f7c3cf3 (final with fix bugs)
   const handleCreate = async () => {
     const data = new FormData();
     data.append("file", file);
@@ -103,6 +117,12 @@ const Add = ({ setClose }) => {
             />
           </div>
         </div>
+<<<<<<< HEAD
+=======
+
+        {/*-------------- Add extra input ----------*/}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
         <div className={styles.item}>
           <label className={styles.label}>Extra</label>
           <div className={styles.extra}>

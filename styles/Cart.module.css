@@ -8,6 +8,9 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 .tr {
   margin: 25px 25px 25px 25px;
 
@@ -220,6 +223,7 @@
     #6f0000,
     #200122
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+<<<<<<< HEAD
 =======
 .right {
   flex: 1;
@@ -270,6 +274,8 @@
   cursor: pointer;
   margin-top: 20px;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 }
 
 @media screen and (max-width: 480px) {
@@ -288,6 +294,7 @@
   .trTitle {
     display: none;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   .tr {
@@ -388,4 +395,47 @@
   color: teal;
   font-weight: bold;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+
+  .tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .imgContainer {
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .name,
+  .total {
+    font-size: 24px;
+  }
+
+  .extras,
+  .price,
+  .quantity {
+    font-size: 22px;
+  }
+
+  .price::before {
+    content: "Price: ";
+    font-weight: 500;
+  }
+  .quantity::before {
+    content: "Quantity: ";
+    font-weight: 500;
+  }
+  .total::before {
+    content: "Total: ";
+    font-weight: 500;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+>>>>>>> f7c3cf3 (final with fix bugs)
 }

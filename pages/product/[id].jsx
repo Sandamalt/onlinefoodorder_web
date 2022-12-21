@@ -57,6 +57,9 @@ const Product = ({ pizza }) => {
               <span className={styles.number}>Small</span>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
             <div className={styles.size} onClick={() => handleSize(1)}>
               <Image src="/img/size.png" layout="fill" alt="" />
               <span className={styles.number}>Medium</span>
@@ -92,6 +95,7 @@ const Product = ({ pizza }) => {
               Add to Cart
             </button>
           </div>
+<<<<<<< HEAD
 =======
           ))}
         </div>
@@ -106,6 +110,8 @@ const Product = ({ pizza }) => {
             Add to Cart
           </button>
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
         </div>
       </div>
     </div>

@@ -1,6 +1,9 @@
 .container {
   height: calc(100vh - 100px);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   /*background-color: #b40614;*/
 
   background: #333333; /* fallback for old browsers */
@@ -14,11 +17,14 @@
     #dd1818,
     #333333
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+<<<<<<< HEAD
 =======
   background-color: #d1411e;
   overflow: hidden;
   position: relative;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 }
 
 .arrowContainer {
@@ -30,10 +36,14 @@
   margin: auto;
   cursor: pointer;
 <<<<<<< HEAD
+<<<<<<< HEAD
   z-index: 1;
 =======
   z-index: 2;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+  z-index: 1;
+>>>>>>> f7c3cf3 (final with fix bugs)
 }
 
 .wrapper {
@@ -41,10 +51,14 @@
   height: 100%;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   transition: all 1.5s ease-in-out;
 =======
   transition: all 1.5s ease-in-out ;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+  transition: all 1.5s ease-in-out;
+>>>>>>> f7c3cf3 (final with fix bugs)
 }
 
 .imgContainer {
@@ -55,13 +69,19 @@
 
 @media screen and (max-width: 480px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   .container {
     height: 50vh;
   }
 }
+<<<<<<< HEAD
 =======
   .container{
     height: 50vh;
   }
 }
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)

@@ -2,31 +2,43 @@
   padding: 10px;
   margin: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   background-color: #ffffff;
   width: 150px;
   border-radius: 10px;
   border: #b40614 2px solid;
   color: #b40614;
+<<<<<<< HEAD
 =======
   background-color: #d1411e;
   width: 150px;
   border-radius: 10px;
   color: white;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   font-weight: 500;
   text-align: center;
   cursor: pointer;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 .mainAddButton:hover {
   background-color: #b40614;
   color: #ffffff;
   transition: 0.8s;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 .container {
   width: 100vw;
   height: 100vh;

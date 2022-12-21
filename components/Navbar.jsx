@@ -11,6 +11,9 @@ const Navbar = () => {
 
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
     /*  ----- Left side of Nav bar */
 
     <div className={styles.container}>
@@ -47,6 +50,7 @@ const Navbar = () => {
 
       {/* ------- Cart icon and right side ------*/}
 
+<<<<<<< HEAD
 =======
     <div className={styles.container}>
       <div className={styles.item}>
@@ -74,6 +78,8 @@ const Navbar = () => {
       </div>
 
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
       <Link href="/cart" passHref>
         <div className={styles.item}>
           <div className={styles.cart}>

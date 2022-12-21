@@ -40,6 +40,9 @@ const Index = ({ orders, products }) => {
   return (
     <div className={styles.container}>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
       <div className={styles.left}>
         <div className={styles.item}>
           <h1 className={styles.title}>Products</h1>
@@ -130,6 +133,7 @@ const Index = ({ orders, products }) => {
             ))}
           </table>
         </div>
+<<<<<<< HEAD
 =======
       <div className={styles.item}>
         <h1 className={styles.title}>Products</h1>
@@ -211,6 +215,8 @@ const Index = ({ orders, products }) => {
           ))}
         </table>
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
       </div>
     </div>
   );

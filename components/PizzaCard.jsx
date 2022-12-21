@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import pizzaImg from
 
+<<<<<<< HEAD
 function PizzaCard({ pizza }) {
   return (
     <div className={styles.container}>
@@ -17,4 +18,25 @@ function PizzaCard({ pizza }) {
   );
 }
 
+=======
+{
+  /*---------  Product card display on landing page ------*/
+}
+
+function PizzaCard({ pizza }) {
+  return (
+    //product image link to page
+
+    <div className={styles.container}>
+      <Link href={`/product/${pizza._id}`} passHref>
+        <Image src={pizza.img} alt="" width="500" height="500" />
+      </Link>
+      <h1 className={styles.title}>{pizza.title}</h1>
+      <span className={styles.price}>$ {pizza.prices[0]}</span>
+      <p className={styles.desc}>{pizza.desc}</p>
+    </div>
+  );
+}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
 export default PizzaCard;

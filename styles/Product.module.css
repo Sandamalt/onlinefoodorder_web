@@ -7,9 +7,12 @@
   flex: 1;
   height: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   display: flex;
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   align-items: center;
   justify-content: center;
 }
@@ -20,6 +23,9 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
 .wrapper {
   width: 95%;
   height: 80%;
@@ -208,6 +214,7 @@
     height: 25px;
   }
 
+<<<<<<< HEAD
 =======
 .imgContainer {
   width: 80%;
@@ -326,6 +333,8 @@
   }
 
 >>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
   .quantity,
   .button {
     height: 50px;
