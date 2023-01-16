@@ -3,10 +3,19 @@ import styles from "../styles/Add.module.css";
 import axios from "axios";
 import { useRouter } from "next/router";
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 {
   /* ------------  Addd item form --------*/
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 const Add = ({ setClose }) => {
   const [file, setFile] = useState(null);
   const [title, setTitle] = useState(null);
@@ -29,10 +38,19 @@ const Add = ({ setClose }) => {
     setExtraOptions((prev) => [...prev, extra]);
   };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   {
     /* ---------- Image upload function to clodinary -------*/
   }
 
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   const handleCreate = async () => {
     const data = new FormData();
     data.append("file", file);
@@ -111,9 +129,18 @@ const Add = ({ setClose }) => {
             />
           </div>
         </div>
+<<<<<<< HEAD
 
         {/*-------------- Add extra input ----------*/}
 
+=======
+<<<<<<< HEAD
+=======
+
+        {/*-------------- Add extra input ----------*/}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
         <div className={styles.item}>
           <label className={styles.label}>Extra</label>
           <div className={styles.extra}>

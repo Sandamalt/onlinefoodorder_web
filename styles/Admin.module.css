@@ -11,6 +11,13 @@
   width: 100%;
   border-spacing: 20px;
   text-align: left;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   width: 100%;
 }
 
@@ -76,4 +83,28 @@
 
 .buttonDel:hover {
   background-color: darkred;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.button:last-child {
+  background-color: crimson;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 }

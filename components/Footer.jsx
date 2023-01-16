@@ -19,9 +19,19 @@ const Footer = () => {
             BEST PIZZAS IN SEETHAWAKA <br />
           </h2>
         </div>
+<<<<<<< HEAD
 
         {/* ------- right side -------*/}
 
+=======
+<<<<<<< HEAD
+        {/* ------- right side -------*/}
+=======
+
+        {/* ------- right side -------*/}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
         <div className={styles.card}>
           <h1 className={styles.title}> FIND OUR RESTURANTS</h1>
           <p className={styles.text}>

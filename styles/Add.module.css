@@ -1,22 +1,56 @@
 .mainAddButton {
   padding: 10px;
   margin: 20px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   background-color: #ffffff;
   width: 150px;
   border-radius: 10px;
   border: #b40614 2px solid;
   color: #b40614;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  background-color: #d1411e;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   font-weight: 500;
   text-align: center;
   cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 .mainAddButton:hover {
   background-color: #b40614;
   color: #ffffff;
   transition: 0.8s;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 .container {
   width: 100vw;
   height: 100vh;

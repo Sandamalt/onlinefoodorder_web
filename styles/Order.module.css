@@ -30,6 +30,13 @@
   flex-direction: column;
   align-items: center;
   animation: inProgress 1s ease infinite alternate;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 }
 
 .undone {
@@ -84,6 +91,14 @@
   font-weight: bold;
   margin-top: 30px;
   cursor: not-allowed;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
 }
 
 @keyframes inProgress {
@@ -95,11 +110,73 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+.undone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.3;
+}
+
+.undone .checkedIcon,
+.inProgress .checkedIcon {
+  display: none;
+}
+
+.right {
+  flex: 1;
+}
+
+.wrapper {
+  width: 90%;
+  max-height: 300px;
+  background-color: #333;
+  color: white;
+  padding: 10px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.totalTextTitle {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: white;
+  height: 30px;
+  color: teal;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: not-allowed;
+}
+
 @media screen and (max-width: 480px) {
   .container {
     flex-direction: column;
   }
 
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
   .trTitle {
     display: none;
   }
@@ -142,7 +219,19 @@
     margin-bottom: 20px;
   }
 
+<<<<<<< HEAD
   .wrapper {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  .wrapper {
+=======
+  .wrapper{
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+  .wrapper {
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
     width: 100%;
   }
 }
