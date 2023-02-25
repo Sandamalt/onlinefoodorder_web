@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,17 +10,30 @@ import {
 } from "@paypal/react-paypal-js";
 import axios from "axios";
 import { useRouter } from "next/router";
-import { reset } from "../redux/cartSlice";
+import { removeFromCart, reset } from "../redux/cartSlice";
 import OrderDetail from "../components/OrderDetail";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
+  const dispatch = useDispatch();
+  {
+    /* ----- Remove cart funtion------}
+  const handleRemoveFromCart = (product) => {
+    dispatch(removeFromCart(product));
+  };
+{*/
+  }
+
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
-  const amount = cart.total;  
+  const amount = cart.total;
   const currency = "USD";
   const style = { layout: "vertical" };
-  const dispatch = useDispatch();
+
   const router = useRouter();
 
   const createOrder = async (data) => {
@@ -139,6 +153,16 @@ const Cart = () => {
                     ${product.price * product.quantity}
                   </span>
                 </td>
+                <td>
+                  {/* ------- Product Clear single item -------}
+                  <button
+                    onClick={() => handleRemoveFromCart(product, cart.total)}
+                  >
+                    {" "}
+                    Remove{" "}
+                  </button>
+                    {*/}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -146,6 +170,7 @@ const Cart = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.wrapper}>
+          <div class="glass"></div>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Subtotal:</b>${cart.total}
@@ -170,7 +195,7 @@ const Cart = () => {
                     "ARXXOKVr8Vknb69PEpKgxsrtTU2Hyivrf6OjsMhmPsv9YOrXOOuZcJA4v3Q-0GTKaatyd9oYOAAKC20f",
                   components: "buttons",
                   currency: "USD",
-                  "disable-funding": "credit,card,p24",  // isable fundings and credit card payment
+                  "disable-funding": "credit,card,p24",
                 }}
               >
                 <ButtonWrapper currency={currency} showSpinner={false} />
@@ -181,6 +206,13 @@ const Cart = () => {
               CHECKOUT NOW!
             </button>
           )}
+        </div>
+
+        <div className={styles.clearButton}>
+          <button className={styles.clearB} onClick={refreshPage}>
+            {" "}
+            Clear Cart{" "}
+          </button>
         </div>
       </div>
       {cash && <OrderDetail total={cart.total} createOrder={createOrder} />}
