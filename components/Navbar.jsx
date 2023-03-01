@@ -10,6 +10,16 @@ const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
 
   return (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
     /*  ----- Left side of Nav bar */
 
     <div className={styles.container}>
@@ -30,14 +40,20 @@ const Navbar = () => {
           <Link href="/" passHref>
             <li className={styles.listItem}> Homepage </li>
           </Link>
+<<<<<<< HEAD
           <Link href="/" passHref>
             <li className={styles.listItem}> Foods </li>
           </Link>
           {/*  <li className={styles.listItem}> Menu </li> */}
+=======
+          <li className={styles.listItem}> Product </li>
+          <li className={styles.listItem}> Menu </li>
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 
           {/* ------Add Logo------ */}
 
           <img src="/img/logo.png" alt="" width="130px" height="130px" />
+<<<<<<< HEAD
           {/* <li className={styles.listItem}> Events </li> */}
           <Link
             href={"https://www.facebook.com/LavenroGardenLK/"}
@@ -47,12 +63,54 @@ const Navbar = () => {
           </Link>
           <Link href={"https://lavenrogarden.com/"} target="_blank">
             <li className={styles.listItem}> Contact Us </li>
+=======
+          <li className={styles.listItem}> Events </li>
+          <li className={styles.listItem}> Blog </li>
+          <Link href={"https://herewecode.io/"} target="_blank">
+            <li className={styles.listItem}> Contact </li>
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
           </Link>
         </ul>
       </div>
 
       {/* ------- Cart icon and right side ------*/}
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.callButton}>
+          <img src="/img/telephone.png" alt="" width="32" height="32" />
+        </div>
+        <div className={styles.texts}>
+          <div className={styles.text}> ORDER NOW ! </div>
+          <div className={styles.text}>036 20 30 500 </div>
+        </div>
+      </div>
+
+      <div className={styles.item}>
+        <ul className={styles.list}>
+          <Link href="/" passHref>
+            <li className={styles.listItem}> Homepage </li>
+          </Link>
+          <li className={styles.listItem}> Product </li>
+          <li className={styles.listItem}> Menu </li>
+          <img src="/img/logo.png" alt="" width="130px" height="130px" />
+          <li className={styles.listItem}> Events </li>
+          <li className={styles.listItem}> Blog </li>
+          <li className={styles.listItem}> Contact </li>
+        </ul>
+      </div>
+
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
       <Link href="/cart" passHref>
         <div className={styles.item}>
           <div className={styles.cart}>

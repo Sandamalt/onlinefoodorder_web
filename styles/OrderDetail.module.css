@@ -8,6 +8,16 @@
   z-index: 999;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 
   background: #83a4d4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -20,16 +30,55 @@
     #b6fbff7c,
     #83a3d465
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  background-color: rgba(197, 197, 197, 0.568);
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 .wrapper {
   width: 500px;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+  background-color: white;
+  border-radius: 20px;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.65);
@@ -42,6 +91,10 @@
 .title {
   font-weight: bold;
   color: #b40614;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 .item {
@@ -61,6 +114,59 @@
   border: #b40614 1px outset;
 }
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+}
+
+.title {
+  font-weight: 300;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 40px;
+<<<<<<< HEAD
+  border-radius: 7px;
+  border: #b40614 1px outset;
+}
+
+=======
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 7px;
+  border: #b40614 1px outset;
+}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 .input:hover {
   border: #b40614 2.5px solid;
 }
@@ -79,6 +185,22 @@
   margin-top: 25px;
   border: none;
   background-color: #b40614;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+}
+
+.button {
+  border: none;
+  background-color: teal;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   color: white;
   padding: 10px 20px;
   font-weight: 500;
@@ -86,7 +208,28 @@
   border-radius: 10px;
   cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 
 .button:hover {
   background-color: #6b070f;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90

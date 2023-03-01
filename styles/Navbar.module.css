@@ -1,6 +1,16 @@
 .container {
   height: 100px;
   padding: 0px 50px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   /*background-color: #b40614; */
 
   background: #333333; /* fallback for old browsers */
@@ -15,20 +25,70 @@
     #333333
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  background-color: #d1411e;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   z-index: 5;
 }
 
 .item {
+<<<<<<< HEAD
   flex: 3;
+=======
+  flex: 2;
+<<<<<<< HEAD
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   display: flex;
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+  z-index: 999;
+}
+
+.item {
+  flex: 1;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+  display: flex;
+  align-items: center;
+}
+
+=======
+  display: flex;
+  align-items: center;
+}
+
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 .item:nth-child(2) {
   flex: 3;
 }
@@ -69,6 +129,16 @@
 }
 
 .listItem {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   margin: 22px;
   font-weight: bold;
   cursor: pointer;
@@ -88,6 +158,24 @@
   width: 40px;
   position: relative;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  margin: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 .counter {
@@ -103,7 +191,23 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
+<<<<<<< HEAD
   color: #34912a;
+=======
+<<<<<<< HEAD
+  color: #34912a;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  color: #34912a;
+=======
+  color: #d1411e;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+  color: #34912a;
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 @media screen and (max-width: 480px) {

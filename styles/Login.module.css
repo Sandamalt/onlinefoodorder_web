@@ -5,6 +5,16 @@
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 .img {
   z-index: -1;
   opacity: 70%;
@@ -18,10 +28,34 @@
   display: flex;
   flex-direction: column;
   color: rgb(211, 78, 78);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+.wrapper {
+  display: flex;
+  flex-direction: column;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 .input {
   height: 40px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   width: 120%;
   font-size: 16px;
 
@@ -30,10 +64,33 @@
 
   border-radius: 10px;
   border: rgb(88, 66, 66) 1px solid;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  margin-bottom: 20px;
+  padding: 0px 10px;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 }
 
 .button {
   height: 40px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   width: 120%;
   border-radius: 12px;
   border: rgb(51, 39, 39) 2px solid;
@@ -53,5 +110,26 @@
 
 .error {
   font-size: 16px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  margin-bottom: 20px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 13px;
+>>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
+=======
+>>>>>>> f7c3cf3 (final with fix bugs)
+>>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
+>>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
   color: red;
 }
