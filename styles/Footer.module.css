@@ -1,57 +1,59 @@
-.container {
-  height: calc(100vh - 100px);
-  background-color: #222;
-  display: flex;
+.container{
+     height: calc(100vh-100px) ;
+     background-color: #222;
+     display: flex;
+     
 }
 
-.item {
-  flex: 1;
-  position: relative;
-  display: flex;
+.item{
+     flex: 1;
+     position: relative;
+     display: flex;
 }
 
-.item:last-child {
-  flex: 2;
-  padding: 50px;
-  justify-content: space-between;
+.item:last-child{
+     flex: 2;
+     padding: 50px;
+     justify-content: space-between;
 }
 
-.card {
-  flex: 1;
-  padding: 0 20px;
+.card{
+     flex: 1;
+     padding: 0 20px;
 }
 
-.title {
-  font-size: 18px;
-  color: #b7903c;
+.title{
+     font-size: 18px;
+     color: #b7903c;
 }
 
-.text {
-  color: lightgray;
+.text{
+     color: lightgray;
 }
 
-.motto {
-  color: rgb(211, 211, 211);
+.motto{
+     color: rgb(211, 211, 211);
+     font-size: 30px;
 }
 
 @media screen and (max-width: 480px) {
-  .container {
-    height: auto;
-    text-align: center;
-  }
-  .item:first-child {
-    display: none;
-  }
+     .container{
+          height: auto;
+          text-align: center;
+     }
 
-  .item {
-    flex-direction: column;
-  }
+     .item:first-child {
+          display: none;
+      
 
-  .title {
-    font-size: 30px;
-  }
+     }
+     .item{
+          flex-direction: column;
+     }
 
-  .text {
-    font-size: 20px;
-  }
+     .title{font-size: 30px;}
+}
+
+.text{
+     font-size: 20px;
 }

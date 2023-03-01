@@ -13,33 +13,9 @@ export default function Home({ pizzaList, admin }) {
   return (
     <div className={styles.container}>
       <Head>
-<<<<<<< HEAD
         <title>Pizza Restaurant in Seethawka</title>
         <meta name="description" content="Best pizza shop in town" />
         <link rel="icon" href="/pizza.png" />
-=======
-<<<<<<< HEAD
-        <title>Pizza Restaurant in Seethawka</title>
-        <meta name="description" content="Best pizza shop in town" />
-        <link rel="icon" href="/pizza.png" />
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <title>Pizza Restaurant in Seethawka</title>
-        <meta name="description" content="Best pizza shop in town" />
-        <link rel="icon" href="/pizza.png" />
-=======
-        <title>Pizza Restaurant in Newyork</title>
-        <meta name="description" content="Best pizza shop in town" />
-        <link rel="icon" href="/favicon.ico" />
->>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
-=======
-        <title>Pizza Restaurant in Seethawka</title>
-        <meta name="description" content="Best pizza shop in town" />
-        <link rel="icon" href="/pizza.png" />
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
       </Head>
       <Featured />
       {admin && <AddButton setClose={setClose} />}

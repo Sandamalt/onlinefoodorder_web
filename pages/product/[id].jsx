@@ -56,16 +56,6 @@ const Product = ({ pizza }) => {
               <Image src="/img/size.png" layout="fill" alt="" />
               <span className={styles.number}>Small</span>
             </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
             <div className={styles.size} onClick={() => handleSize(1)}>
               <Image src="/img/size.png" layout="fill" alt="" />
               <span className={styles.number}>Medium</span>
@@ -101,29 +91,6 @@ const Product = ({ pizza }) => {
               Add to Cart
             </button>
           </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-          ))}
-        </div>
-        <div className={styles.add}>
-          <input
-            onChange={(e) => setQuantity(e.target.value)}
-            type="number"
-            defaultValue={1}
-            className={styles.quantity}
-          />
-          <button className={styles.button} onClick={handleClick}>
-            Add to Cart
-          </button>
->>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
-=======
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
         </div>
       </div>
     </div>

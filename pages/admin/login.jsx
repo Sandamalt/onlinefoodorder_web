@@ -1,20 +1,5 @@
 import axios from "axios";
-<<<<<<< HEAD
 import Image from "next/image";
-=======
-<<<<<<< HEAD
-import Image from "next/image";
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-import Image from "next/image";
-=======
->>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
-=======
-import Image from "next/image";
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
 import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "../../styles/Login.module.css";
@@ -39,16 +24,6 @@ const Login = () => {
 
   return (
     <div className={styles.container}>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
       <div className={styles.img}>
         <Image
           src="/../public/img/admin4.jpg"
@@ -59,19 +34,6 @@ const Login = () => {
       </div>
       <div className={styles.wrapper}>
         <h1>Admin Login</h1>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-      <div className={styles.wrapper}>
-        <h1>Admin Dashboard</h1>
->>>>>>> c69594653924d55c8c4bfcd3b10e7ca9c122e7ab
-=======
->>>>>>> f7c3cf3 (final with fix bugs)
->>>>>>> f897d1344edc22ce9fcb3b532aadeedf85952e02
->>>>>>> 5f28f941bceab332975871bbb21c2cc8e8f6cb90
         <input
           placeholder="username"
           className={styles.input}
